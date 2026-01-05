@@ -1,0 +1,173 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Section 1 : En-tête + Héros */
+.header-hero {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.logo img {
+  width: 160px;
+  height: 170px;
+  clip-path: circle(50%);
+}
+
+.logo {
+  margin-top: 30px;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header nav a {
+  margin-left: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-image {
+  max-width: 100%;
+}
+
+button {
+  background: #5a52f1;
+  color: #fff;
+  border: none;
+  padding: 0,5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+/* Section 2 : Infos aléatoires*/
+.infos {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background: #fff;
+}
+
+.info {
+  flex: 1;
+  margin: 1rem;
+  text-align: center;
+}
+
+.info {
+  max-width: 100%;
+}
+
+.info-img {
+  width: 100px;
+  height: 1OOpx;
+  object-fit: cover;
+}
+
+.info p {
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  color: #0f0f0f;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+/* Section 3 : Citation */
+.citation {
+  text-align: center;
+  padding: 2rem;
+  background: #f7f7f7;
+  font-style: italic;
+}
+
+.citation-auteur {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+/* Section 4 : Appel à l'action */
+.cta-wrapper {
+  background: #fff;
+  padding: 2rem 0;
+}
+
+.cta {
+  background: #007bff;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.cta-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+color: #fff;
+}
+
+.cta-text {
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.cta-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.cta-text p {
+  font-size: 16px;
+}
+
+.cta-button button {
+  background-color: #0a20ed;
+color: #0004ffe5;
+border: none;
+padding: 10px 2Opx;
+font-size: 16px;
+cursor: pointer;
+border-radius: 5px;
+  font-size: 16px;
+}
+
+.cta-button button:hover {
+  background: #ccc;
+}
+
+/* Section 5 : Pied de page */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+}
